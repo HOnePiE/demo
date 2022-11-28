@@ -707,7 +707,7 @@ h2 {
   font-size: 28px; }
 
 h3 {
-  font-size: 22px; }
+  font-size: 35px; }
 
 h4 {
   font-size: 18px; }
@@ -734,7 +734,7 @@ a {
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease; }
   a:hover {
-    color: #2AC37D; }
+    color: #ff4655; }
 
 a,
 input,
@@ -792,7 +792,7 @@ iframe {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   text-align: center;
-  color: #2AC37D;
+  color: #ff4655;
   text-transform: uppercase; }
 
 .ps-post--detail .ps-post__content h1, .ps-post--detail .ps-post__content h2, .ps-post--detail .ps-post__content h3, .ps-post--detail .ps-post__content h4, .ps-post--detail .ps-post__content h5, .ps-post--detail .ps-post__content h6 {
@@ -827,7 +827,7 @@ iframe {
   .ps-container {
     width: 1170px; }
   .container-fluid {
-    padding: 0 30px; } }
+    padding: 0 0 0 30px; } }
 
 @media (min-width: 1440px) {
   .ps-container {
@@ -905,7 +905,7 @@ body {
       -o-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
     .ps-social li a:hover {
-      color: #2AC37D; }
+      color: #ff4655; }
 
 .ps-list--arrow a {
   position: relative;
@@ -969,13 +969,13 @@ body {
     content: '';
     width: 0;
     height: 1px;
-    background-color: #2AC37D;
+    background-color: #ff4655;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     transition: all 0.4s ease; }
   .ps-list--line a:hover {
     padding-left: 25px;
-    color: #2AC37D; }
+    color: #ff4655; }
     .ps-list--line a:hover:before {
       width: 20px; }
 
@@ -991,8 +991,8 @@ body {
     display: block;
     padding-left: 30px;
     font-size: 14px;
-    color: #313131; }
-    .ps-list--checked li a:before {
+    color: #ffffff; }
+    /* .ps-list--checked li a:before {
       display: inline-block;
       position: absolute;
       top: 0;
@@ -1003,34 +1003,35 @@ body {
       border: solid 1px #8d8d8d;
       -webkit-transition: all 0.4s ease;
       -moz-transition: all 0.4s ease;
-      transition: all 0.4s ease; }
-    .ps-list--checked li a:after {
-      content: '';
-      display: inline-block;
-      position: absolute;
-      top: 4px;
-      left: 8px;
-      color: #fff;
-      width: 6px;
-      height: 10px;
-      border-right: 2px solid #fff;
-      border-bottom: 2px solid #fff;
-      -webkit-transform: rotate(45deg);
-      -moz-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      -o-transform: rotate(45deg);
-      transform: rotate(45deg);
-      visibility: hidden;
-      opacity: 0; }
+      transition: all 0.4s ease; } */
+      /* .ps-list--checked li a:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        top: 4px;
+        left: 8px;
+        color: #fff;
+        width: 6px;
+        height: 10px;
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        visibility: hidden;
+        opacity: 0; } */
     .ps-list--checked li a:hover:before {
-      background-color: #2AC37D;
-      border-color: #2AC37D; }
+      background-color: #ff4655;
+      border-color: #ff4655; }
     .ps-list--checked li a:hover:after {
       visibility: visible;
       opacity: 1; }
-  .ps-list--checked li.current a:before {
-    background-color: #2AC37D;
-    border-color: #2AC37D; }
+  /* .ps-list--checked li.current a:before {
+    background-color: #ff4655;
+    border-color: #ff4655;
+   } */
   .ps-list--checked li.current a:after {
     visibility: visible;
     opacity: 1; }
@@ -1076,16 +1077,16 @@ body {
 .form-control {
   outline: none;
   height: 50px;
-  background-color: #e4e4e4;
-  border-color: #e4e4e4;
+  /* background-color: #ff465657;
+  border-color: #ff0000;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   -ms-box-shadow: none;
-  box-shadow: none;
-  -webkit-border-radius: 0;
+  box-shadow: none; */
+  /* -webkit-border-radius: 30px;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
-  border-radius: 0;
+  border-radius: 30; */
   padding: 0 20px; }
   .form-control:focus {
     outline: none;
@@ -1093,11 +1094,13 @@ body {
     -moz-box-shadow: none;
     -ms-box-shadow: none;
     box-shadow: none;
-    border-color: #2AC37D; }
+    border-color: #ff4655; }
 
 textarea.form-control {
   height: auto;
-  padding: 20px; }
+  padding: 20px; 
+
+}
 
 .ps-input--has-icon {
   position: relative; }
@@ -1264,7 +1267,7 @@ textarea.form-control {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 1.4em;
-  color: #5b5b5b;
+  color: black;
   border: none;
   text-transform: uppercase;
   background-color: #e4e4e4 !important;
@@ -1301,7 +1304,7 @@ textarea.form-control {
   -moz-box-shadow: none;
   -ms-box-shadow: none;
   box-shadow: none;
-  background-color: #2AC37D !important; }
+  background-color: #ff4655 !important; }
 
 .ps-select .bs-caret {
   display: none; }
@@ -1350,7 +1353,7 @@ textarea.form-control {
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       border-radius: 50%;
-      background-color: #2AC37D;
+      background-color: #ff4655;
       z-index: 10;
       opacity: 0;
       -webkit-transform: scale(1.5, 1.5);
@@ -1377,7 +1380,7 @@ textarea.form-control {
   font-size: 24px;
   font-weight: 700;
   text-align: left;
-  color: #313131; }
+  color: #ff4655; }
 
 .ps-form--comment .form-control {
   -webkit-border-radius: 0;
@@ -1402,7 +1405,7 @@ textarea.form-control {
     left: 0;
     font-size: 16px;
     line-height: 1.3em;
-    color: #5b5b5b;
+    color: black;
     font-weight: 400; }
   .form-group--inline.textarea label {
     -webkit-transform: translateY(50%);
@@ -1429,7 +1432,7 @@ textarea.form-control {
         transform: translateY(0); } }
 
 .form-group--number {
-  display: inline-block; }
+  display: flex; }
   .form-group--number .input-group-btn {
     display: inline-block; }
   .form-group--number input.form-control {
@@ -1440,10 +1443,11 @@ textarea.form-control {
     width: 130px;
     height: 40px;
     text-align: center;
-    -webkit-border-radius: 0;
+    /* -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
-    border-radius: 0; }
+    border-radius: 0; */
+   }
     .form-group--number input.form-control:focus {
       border-color: #f1f1f1; }
   .form-group--number button {
@@ -1461,7 +1465,12 @@ textarea.form-control {
     .form-group--number button:hover {
       background-color: #50CF96; }
     .form-group--number button.minus {
-      float: left; }
+      float: left;
+    }
+      .form-group--number button.plus{
+        float:right;
+      }
+    
 
 .ps-form--icon {
   position: relative; }
@@ -1484,7 +1493,7 @@ textarea.form-control {
   margin-left: 20px;
   overflow: hidden;
   display: none;
-  background-color: #2AC37D;
+  background-color: #ff4655;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1599,13 +1608,13 @@ textarea.form-control {
   text-transform: uppercase;
   letter-spacing: .1em;
   color: #fff;
-  background-color: #2AC37D;
+  background-color: #ff4655;
   line-height: 25px;
   border: none;
-  -webkit-border-radius: 60px;
+  /* -webkit-border-radius: 60px; */
   -moz-border-radius: 60px;
   -ms-border-radius: 60px;
-  border-radius: 60px;
+  /* border-radius: 60px; */
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease; }
@@ -1633,8 +1642,8 @@ textarea.form-control {
     -moz-transition: all 0.4s ease;
     transition: all 0.4s ease; }
   .ps-btn:hover, button.ps-btn:hover {
-    background-color: #50CF96;
-    color: #fff; }
+    background-color: #ffffff;
+    color: rgb(0, 0, 0); }
     .ps-btn:hover:before, button.ps-btn:hover:before {
       background-color: rgba(0, 0, 0, 0.1); }
 
@@ -1704,7 +1713,7 @@ textarea.form-control {
   .ps-post__actions span i, .ps-post__actions .ps-post__social i {
     margin-right: 5px; }
   .ps-post__actions span i.fa.fa-comments, .ps-post__actions .ps-post__social i.fa.fa-comments {
-    color: #5b5b5b; }
+    color: black; }
   .ps-post__actions span i.fa-heart, .ps-post__actions .ps-post__social i.fa-heart {
     color: #ff7b7b; }
   .ps-post__actions span i.fa-share-alt, .ps-post__actions .ps-post__social i.fa-share-alt {
@@ -1770,7 +1779,7 @@ textarea.form-control {
           transform: translate(-50%, -50%);
           color: #fff; }
         .ps-post__actions .ps-post__social ul li a:hover {
-          background-color: #2AC37D !important; }
+          background-color: #ff4655 !important; }
       .ps-post__actions .ps-post__social ul li:nth-child(2) a {
         background-color: #44ccf6; }
       .ps-post__actions .ps-post__social ul li:nth-child(3) a {
@@ -1809,11 +1818,11 @@ textarea.form-control {
     font-family: "Archivo Narrow", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #5b5b5b;
+    color: black;
     text-transform: uppercase;
     line-height: 1.3em; }
     .ps-post .ps-post__title:hover {
-      color: #2AC37D; }
+      color: #ff4655; }
   .ps-post .ps-post__meta {
     margin-bottom: 10px; }
     .ps-post .ps-post__meta > span {
@@ -1822,7 +1831,7 @@ textarea.form-control {
       color: #8d8d8d; }
       .ps-post .ps-post__meta > span a {
         margin-left: 5px;
-        color: #2AC37D;
+        color: #ff4655;
         font-weight: 500; }
         .ps-post .ps-post__meta > span a:hover {
           color: #303030; }
@@ -1887,12 +1896,12 @@ textarea.form-control {
     color: #000;
     text-transform: uppercase; }
     .ps-post--sidebar .ps-post__title:hover {
-      color: #2AC37D; }
+      color: #ff4655; }
   .ps-post--sidebar span {
     display: block;
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
-    color: #5b5b5b; }
+    color: black; }
 
 .ps-post--2 {
   margin-bottom: 50px;
@@ -1985,16 +1994,16 @@ textarea.form-control {
     font-family: "Archivo Narrow", sans-serif;
     font-size: 26px;
     font-weight: 700;
-    color: #5b5b5b;
+    color: black;
     text-transform: uppercase;
     line-height: 1.2em; }
     .ps-post--2 .ps-post__title:hover {
-      color: #2AC37D; }
+      color: #ff4655; }
   .ps-post--2 .ps-post__header p {
     font-size: 14px;
     color: #8d8d8d; }
     .ps-post--2 .ps-post__header p a {
-      color: #2AC37D; }
+      color: #ff4655; }
   .ps-post--2 .ps-post__content p {
     font-size: 14px;
     line-height: 1.8em;
@@ -2017,7 +2026,7 @@ textarea.form-control {
       vertical-align: middle;
       top: -1px; }
     .ps-post--2 .ps-post__morelink:hover {
-      color: #2AC37D; }
+      color: #ff4655; }
   .ps-post--2 .ps-post__actions {
     float: right; }
     .ps-post--2 .ps-post__actions .ps-post__social {
@@ -2057,13 +2066,13 @@ textarea.form-control {
     font-family: "Archivo Narrow", sans-serif;
     font-size: 26px;
     font-weight: 700;
-    color: #5b5b5b;
+    color: black;
     text-transform: uppercase; }
   .ps-post--detail .ps-post__meta {
     font-size: 14px;
     color: #8d8d8d; }
     .ps-post--detail .ps-post__meta a {
-      color: #2AC37D; }
+      color: #ff4655; }
   .ps-post--detail .ps-post__header {
     margin-bottom: 15px; }
   .ps-post--detail .ps-post__content p {
@@ -2073,7 +2082,7 @@ textarea.form-control {
     line-height: 1.8em;
     color: #8d8d8d; }
   .ps-post--detail .ps-post__content blockquote {
-    border-color: #2AC37D; }
+    border-color: #ff4655; }
     .ps-post--detail .ps-post__content blockquote p {
       font-family: "Montserrat", sans-serif;
       font-size: 18px;
@@ -2105,7 +2114,7 @@ textarea.form-control {
       font-style: italic;
       color: #6d6d6d; }
       .ps-post--detail .ps-post__footer .ps-post__tags a:hover {
-        color: #2AC37D; }
+        color: #ff4655; }
   .ps-post--detail .ps-post__footer .ps-post__actions {
     float: right; }
   @media (max-width: 767px) {
@@ -2128,7 +2137,8 @@ textarea.form-control {
     left: 0;
     width: 150px;
     height: 2px;
-    background-color: #fff; }
+    /* background-color: #fff; */
+   }
   .ps-banner .ps-banner__header p {
     margin-bottom: 0;
     font-family: "Archivo Narrow", sans-serif;
@@ -2201,7 +2211,7 @@ textarea.form-control {
       height: 45px;
       bottom: 0;
       right: 0;
-      background-color: #2AC37D;
+      background-color: #ff4655;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
@@ -2268,7 +2278,7 @@ textarea.form-control {
     font-weight: 700; }
 
 .ps-widget--info.second {
-  padding-top: 55px; }
+  padding-top: 0; }
 
 @media (max-width: 991px) {
   .ps-widget--info.second {
@@ -2289,7 +2299,7 @@ textarea.form-control {
   text-transform: uppercase; }
 
 .ps-widget--sidebar {
-  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
   padding-bottom: 25px;
   margin-bottom: 25px; }
   .ps-widget--sidebar .ps-widget__header {
@@ -2314,7 +2324,7 @@ textarea.form-control {
       -moz-transition: all 0.4s ease;
       transition: all 0.4s ease; }
       .ps-widget--sidebar .ps-table--size tbody > tr > td.active, .ps-widget--sidebar .ps-table--size tbody > tr > td:hover {
-        background-color: #2AC37D;
+        background-color: #ff4655;
         color: #fff; }
 
 .ps-sticky {
@@ -2366,7 +2376,7 @@ textarea.form-control {
     -moz-transition: all 0.4s ease;
     transition: all 0.4s ease; }
     .ps-search--widget > button:hover {
-      color: #2AC37D; }
+      color: #ff4655; }
 
 .ps-widget--search {
   border-bottom: none; }
@@ -2472,15 +2482,18 @@ textarea.form-control {
     margin-bottom: 0;
     position: relative;
     min-height: 60px;
-    background-color: #fff; }
+    background-color: #fff; 
+    border-radius: 5px ;
+  
+  }
   .ps-shoe .ps-shoe__name {
     font-family: "Archivo Narrow", sans-serif;
     font-size: 16px;
     font-weight: 700;
-    color: #5b5b5b;
+    color: black;
     line-height: 1.4em; }
     .ps-shoe .ps-shoe__name:hover {
-      color: #2AC37D; }
+      color: #ff4655; }
   .ps-shoe .ps-shoe__categories {
     margin-bottom: 0; }
     .ps-shoe .ps-shoe__categories > a {
@@ -2488,7 +2501,7 @@ textarea.form-control {
       font-size: 12px;
       color: #8d8d8d; }
       .ps-shoe .ps-shoe__categories > a:hover {
-        color: #2AC37D; }
+        color: #ff4655; }
   .ps-shoe .ps-shoe__price {
     display: inline-block;
     position: absolute;
@@ -2496,7 +2509,7 @@ textarea.form-control {
     right: 10px;
     font-family: "Archivo Narrow", sans-serif;
     font-size: 20px;
-    color: #5b5b5b; }
+    color: black; }
     .ps-shoe .ps-shoe__price del {
       font-size: 16px;
       color: #bcbcbc; }
@@ -2532,7 +2545,7 @@ textarea.form-control {
       transform: translate(-50%, -50%);
       color: #fff; }
     .ps-shoe .ps-shoe__favorite.active, .ps-shoe .ps-shoe__favorite:hover {
-      background-color: #2AC37D; }
+      background-color: #ff4655; }
   .ps-shoe .br-theme-fontawesome-stars .br-widget {
     margin-bottom: 0; }
   .ps-shoe:hover:before {
@@ -2542,7 +2555,9 @@ textarea.form-control {
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
     -o-transform: scale(1, 1);
-    transform: scale(1, 1); }
+    transform: scale(1, 1); 
+    
+  }
   .ps-shoe:hover .ps-shoe__thumbnail {
     z-index: 10000; }
   .ps-shoe:hover .ps-shoe__content {
@@ -2610,7 +2625,7 @@ textarea.form-control {
     color: #626262;
     text-transform: uppercase; }
     .ps-shoe--sidebar .ps-shoe__title:hover {
-      color: #2AC37D; }
+      color: #ff4655; }
   .ps-shoe--sidebar .ps-btn {
     padding: 6px 20px 4px;
     font-size: 12px;
@@ -2627,7 +2642,7 @@ textarea.form-control {
   width: 80px;
   height: 35px;
   z-index: 10;
-  background-color: #2AC37D; }
+  background-color: #ff4655; }
   .ps-badge > span {
     position: absolute;
     top: 50%;
@@ -2852,7 +2867,7 @@ textarea.form-control {
     margin: 0;
     display: inline-block; }
     .ps-pagination .pagination li {
-      display: inline-block;
+      /* display: inline-block; */
       margin-right: 15px;
       text-align: center; }
       .ps-pagination .pagination li > a {
@@ -2862,7 +2877,7 @@ textarea.form-control {
         z-index: 30;
         font-family: "Montserrat", sans-serif;
         font-size: 16px;
-        color: #313131;
+        color: #ff4655;
         line-height: 50px;
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
@@ -2895,7 +2910,7 @@ textarea.form-control {
         .ps-pagination .pagination li > a:after {
           width: 45px;
           height: 45px;
-          background-color: #2AC37D;
+          background-color: #ff4655;
           z-index: -1;
           visibility: hidden;
           opacity: 0; }
@@ -2938,7 +2953,7 @@ textarea.form-control {
     background-color: #e5e5e5; }
     .ps-tags li a:hover {
       color: #fff;
-      background-color: #2AC37D; }
+      background-color: #ff4655; }
 
 .ps-user {
   margin-bottom: 30px; }
@@ -2989,7 +3004,7 @@ textarea.form-control {
       .ps-user .ps-user__social li a {
         font-size: 20px; }
         .ps-user .ps-user__social li a:hover {
-          color: #2AC37D; }
+          color: #ff4655; }
   .ps-user .ps-user__content {
     padding-top: 15px;
     text-align: center; }
@@ -2998,7 +3013,7 @@ textarea.form-control {
       font-size: 18px;
       font-weight: 600;
       text-transform: uppercase;
-      color: #1d1d1d;
+      color: #ff4655;
       line-height: 1.2em; }
     .ps-user .ps-user__content p {
       font-size: 13px;
@@ -3022,7 +3037,7 @@ textarea.form-control {
   color: #9297a3;
   line-height: 1.2em; }
   .ps-team .ps-team__listing li a:hover {
-    color: #2AC37D; }
+    color: #ff4655; }
 
 @media (max-width: 1199px) {
   .ps-team h3 {
@@ -3077,7 +3092,7 @@ textarea.form-control {
       font-family: "Archivo Narrow", sans-serif;
       font-size: 14px;
       font-weight: 700;
-      color: #313131; }
+      color: #ff4655; }
     .ps-author .ps-author__content > header p {
       margin-bottom: 0;
       font-family: "Montserrat", sans-serif;
@@ -3129,7 +3144,7 @@ textarea.form-control {
       font-size: 14px;
       line-height: 1.5em;
       text-align: left;
-      color: #5b5b5b; }
+      color: black; }
   .ps-review header {
     margin-bottom: 10px; }
     .ps-review header .br-widget, .ps-review header .br-wrapper {
@@ -3138,10 +3153,10 @@ textarea.form-control {
     .ps-review header p {
       display: inline-block;
       font-size: 14px;
-      color: #5b5b5b; }
+      color: black; }
       .ps-review header p a {
         font-weight: 700;
-        color: #2AC37D; }
+        color: #ff4655; }
   @media (max-width: 767px) {
     .ps-review .ps-review__thumbnail {
       margin-bottom: 20px;
@@ -3204,7 +3219,7 @@ textarea.form-control {
         font-family: "Archivo Narrow", sans-serif;
         font-weight: 700;
         font-size: 16px;
-        color: #2ac37d;
+        color: #ff4655;
         text-transform: uppercase; }
         .ps-comment .ps-comment__content > header > a i {
           margin-left: 10px; }
@@ -3233,7 +3248,7 @@ textarea.form-control {
   font-family: "Archivo Narrow", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #313131;
+  color: #ff4655;
   text-transform: uppercase; }
 
 .ps-iconbox {
@@ -3244,13 +3259,13 @@ textarea.form-control {
     display: inline-block;
     margin-bottom: 20px;
     font-size: 50px;
-    color: #2AC37D; }
+    color: #ff4655; }
   .ps-iconbox__header h3 {
     font-family: "Archivo Narrow", sans-serif;
     font-size: 24px;
     line-height: 1;
     font-weight: 700;
-    color: #2AC37D;
+    color: #ff4655;
     text-transform: uppercase; }
   .ps-iconbox__header p {
     font-family: "Archivo Narrow", sans-serif;
@@ -3329,6 +3344,8 @@ textarea.form-control {
 .ps-offer {
   display: block;
   position: relative;
+  max-width: 900px;
+  max-height: 500px;
   overflow: hidden; }
   .ps-offer img {
     -webkit-transition: all 0.4s ease;
@@ -3376,10 +3393,10 @@ textarea.form-control {
     font-family: "Archivo Narrow", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #000000;
+    color: #ffffff;
     text-transform: uppercase; }
     .ps-cart__table > tbody > tr > td .ps-product__preview:hover {
-      color: #2AC37D; }
+      color: #ff4655; }
 
 .ps-table--compare table.table {
   border: 1px solid #e1e1e1; }
@@ -3407,7 +3424,7 @@ textarea.form-control {
       color: #989898;
       text-transform: uppercase; }
       .ps-table--compare table.table tbody > tr > td .status.in-stock {
-        color: #2AC37D; }
+        color: #ff4655; }
 
 .ps-table--whishlist .ps-cart__table > tbody > tr > td {
   font-weight: 500;
@@ -3436,7 +3453,7 @@ textarea.form-control {
   width: 60px;
   height: 60px;
   margin: -20px 0 0 -20px;
-  border: 8px solid #2AC37D;
+  border: 8px solid #ff4655;
   border-bottom-color: #219962;
   border-radius: 50%;
   animation: animLoader 0.8s linear infinite forwards; }
@@ -3459,10 +3476,12 @@ textarea.form-control {
   display: inline-block;
   font-family: "Archivo Narrow", sans-serif;
   font-weight: 700;
-  color: #1d1d1d;
+  color: black;
   line-height: 100px;
   text-transform: uppercase;
-  min-width: 1000px; }
+  min-width: 1000px; 
+  text-align:center ;
+}
   .ps-section__title:before {
     content: attr(data-mask);
     position: absolute;
@@ -3478,7 +3497,8 @@ textarea.form-control {
     font-weight: 700;
     font-size: 100px;
     line-height: 1em;
-    color: #f4f4f4;
+    color: #ff4655;
+    border-left: 7px solid #ff4655;
     letter-spacing: .08em; }
 
 .ps-section__action {
@@ -3561,8 +3581,8 @@ textarea.form-control {
       -moz-transition: all 0.4s ease;
       transition: all 0.4s ease; }
       .ps-home-testimonial .owl-slider .owl-dot:hover, .ps-home-testimonial .owl-slider .owl-dot.active {
-        background-color: #2AC37D;
-        border-color: #2AC37D; }
+        background-color: #ff4655;
+        border-color: #ff4655; }
 
 .ps-home-partner {
   background-color: #f5f3f0; }
@@ -3613,9 +3633,10 @@ textarea.form-control {
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
       -ms-border-radius: 0;
-      border-radius: 0; }
+      border-radius: 0;
+     }
       .ps-home-contact .ps-home-contact__form form .form-control:focus {
-        border-color: #2AC37D; }
+        border-color: #ff4655; }
     @media (max-width: 1440px) {
       .ps-home-contact .ps-home-contact__form {
         margin-left: 15px; } }
@@ -3652,7 +3673,7 @@ textarea.form-control {
     text-transform: uppercase; }
     .ps-section--sale-off .ps-hot-deal .ps-hot-deal__price span {
       font-size: 48px;
-      color: #2AC37D; }
+      color: #ff4655; }
   .ps-section--sale-off .ps-hot-deal .ps-countdown {
     margin-bottom: 40px; }
     .ps-section--sale-off .ps-hot-deal .ps-countdown li {
@@ -3751,18 +3772,18 @@ textarea.form-control {
         font-family: "Montserrat", sans-serif;
         font-size: 10px;
         font-weight: 500;
-        color: #5b5b5b;
+        color: black;
         visibility: hidden;
         opacity: 0;
         -webkit-transition: all 0.4s ease;
         -moz-transition: all 0.4s ease;
         transition: all 0.4s ease; }
       .ps-section--features-product .ps-masonry__filter li > a:hover {
-        color: #2AC37D; }
+        color: #ff4655; }
     .ps-section--features-product .ps-masonry__filter li:last-child {
       margin-right: 0; }
     .ps-section--features-product .ps-masonry__filter li.current > a {
-      color: #2AC37D; }
+      color: #ff4655; }
       .ps-section--features-product .ps-masonry__filter li.current > a sup {
         visibility: visible;
         opacity: 1; }
@@ -3789,7 +3810,7 @@ textarea.form-control {
       line-height: 1em;
       vertical-align: middle; }
     .ps-owl-root .ps-owl-actions a:hover {
-      color: #2AC37D; }
+      color: #ff4655; }
   .ps-owl-root .ps-owl-actions .ps-prev {
     margin-right: 55px; }
     .ps-owl-root .ps-owl-actions .ps-prev i {
@@ -3823,7 +3844,7 @@ textarea.form-control {
     margin-bottom: 30px;
     font-family: "Archivo Narrow", sans-serif;
     font-size: 36px;
-    color: #2AC37D;
+    color: #ff4655;
     text-transform: uppercase; }
   .ps-mission h2 {
     font-family: "Archivo Narrow", sans-serif;
@@ -3898,7 +3919,7 @@ textarea.form-control {
       .sub-menu > li > a:hover {
         color: #fff;
         padding-left: 20px;
-        background-color: #2AC37D; }
+        background-color: #ff4655; }
     .sub-menu > li:last-child > a {
       border-bottom: none; }
     .sub-menu > li.menu-item-has-children {
@@ -4001,13 +4022,13 @@ textarea.form-control {
       content: '';
       width: 0;
       height: 1px;
-      background-color: #2AC37D;
+      background-color: #ff4655;
       -webkit-transition: all 0.3s ease;
       -moz-transition: all 0.3s ease;
       transition: all 0.3s ease; }
     .mega-menu .mega-item a:hover {
       padding-left: 25px;
-      color: #2AC37D; }
+      color: #ff4655; }
       .mega-menu .mega-item a:hover:before {
         width: 20px; }
   .mega-menu .mega-item.mega-features li {
@@ -4020,7 +4041,7 @@ textarea.form-control {
     color: #1d1d1d;
     text-transform: uppercase; }
     .mega-menu .mega-item.mega-features a:hover {
-      color: #2AC37D; }
+      color: #ff4655; }
   @media (max-width: 1199px) {
     .mega-menu {
       position: relative;
@@ -4095,15 +4116,15 @@ textarea.form-control {
         transform: translate(-50%, -50%);
         height: 30px;
         width: 100%;
-        background-color: #2AC37D;
+        background-color: #ff4655;
         z-index: -1;
         -webkit-transition: all 0.4s ease;
         -moz-transition: all 0.4s ease;
         transition: all 0.4s ease;
-        -webkit-border-radius: 30px;
+        /* -webkit-border-radius: 30px; */
         -moz-border-radius: 30px;
         -ms-border-radius: 30px;
-        border-radius: 30px;
+        /* border-radius: 30px; */
         -webkit-transform: translate(-50%, -50%) scale(0.5, 0.5);
         -moz-transform: translate(-50%, -50%) scale(0.5, 0.5);
         -ms-transform: translate(-50%, -50%) scale(0.5, 0.5);
@@ -4315,7 +4336,10 @@ textarea.form-control {
   .navigation .center {
     text-align: center; }
   .navigation .navigation__column.right {
-    text-align: right; }
+    text-align: right; 
+    position: relative;
+    left: 215px;
+    }
     .navigation .navigation__column.right .ps-cart__toggle {
       top: 15px; }
     .navigation .navigation__column.right .ps-search--header {
@@ -4370,7 +4394,7 @@ textarea.form-control {
     font-size: 14px;
     color: #fff; }
     .ps-subscribe p span {
-      color: #2AC37D;
+      color: #ff4655;
       font-size: 24px;
       font-style: italic; }
   .ps-subscribe__form {
@@ -4406,7 +4430,7 @@ textarea.form-control {
       font-size: 16px;
       text-transform: uppercase;
       letter-spacing: .05em;
-      background-color: #2AC37D;
+      background-color: #ff4655;
       color: #fff;
       -webkit-transition: all 0.4s ease;
       -moz-transition: all 0.4s ease;
@@ -4435,7 +4459,7 @@ textarea.form-control {
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-color: #000;
+    background-color: ;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -4453,7 +4477,7 @@ textarea.form-control {
       -o-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       font-size: 20px;
-      color: #fff; }
+      color: #333; }
     .ps-cart__toggle span {
       position: absolute;
       top: -5px;
@@ -4466,12 +4490,12 @@ textarea.form-control {
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       border-radius: 50%;
-      background-color: #2AC37D; }
+      background-color: #ff4655; }
       .ps-cart__toggle span i {
         font-size: 10px;
         font-style: normal; }
     .ps-cart__toggle:hover {
-      background-color: #2AC37D; }
+      background-color: #ff4655; }
   .ps-cart__listing {
     position: absolute;
     top: 100%;
@@ -4599,7 +4623,7 @@ textarea.form-control {
     text-align: left;
     color: #fff; }
     .ps-cart-item__title:hover {
-      color: #2AC37D; }
+      color: #ff4655; }
   .ps-cart-item__content {
     float: left;
     width: calc(100% - 60px);
@@ -4648,7 +4672,7 @@ textarea.form-control {
       -o-transform: translate(-50%, -50%) rotate(-45deg);
       transform: translate(-50%, -50%) rotate(-45deg); }
     .ps-cart-item .ps-cart-item__close:hover {
-      background-color: #2AC37D; }
+      background-color: #ff4655; }
   .ps-cart-item:last-child {
     border-bottom: none; }
 
@@ -4660,7 +4684,7 @@ textarea.form-control {
     font-size: 30px;
     font-weight: 700;
     line-height: 0.7em;
-    color: #000;
+    color: #ff4655;
     text-transform: uppercase; }
   .ps-checkout .ps-checkout__billing .form-group {
     margin-bottom: 20px; }
@@ -4747,16 +4771,16 @@ textarea.form-control {
     font-size: 20px;
     font-weight: 700;
     line-height: 1em;
-    color: #5b5b5b; }
+    color: black; }
   .ps-shipping a {
-    color: #2AC37D;
+    color: #ff4655;
     text-decoration: underline; }
 
 .ps-cart-listing .ps-cart__table thead > tr > th {
   font-family: "Archivo Narrow", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: #515356;
+  color: #ffffff;
   text-transform: uppercase;
   border-bottom: 1px solid #e5e5e5; }
 
@@ -4799,7 +4823,7 @@ textarea.form-control {
       margin-bottom: 20px;
       font-size: 14px;
       font-weight: 500;
-      color: #515356;
+      color: #ffffff;
       text-transform: uppercase;
       vertical-align: middle;
       line-height: 30px; }
@@ -4850,29 +4874,29 @@ textarea.form-control {
     padding: 0 20px;
     border: none;
     height: 40px;
-    background-color: #e8e8e8;
-    -webkit-border-radius: 40px;
+    background-color: #ff4655;
+    /* -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
-    border-radius: 40px;
+    border-radius: 40px; */
     font-size: 13px;
-    color: #767779; }
+    color: black; }
     .ps-search--header > input::-webkit-input-placeholder {
       font-family: "Montserrat", sans-serif;
       font-size: 13px;
-      color: #adadad; }
+      color: black; }
     .ps-search--header > input::-moz-placeholder {
       font-family: "Montserrat", sans-serif;
       font-size: 13px;
-      color: #adadad; }
+      color: black; }
     .ps-search--header > input:-moz-placeholder {
       font-family: "Montserrat", sans-serif;
       font-size: 13px;
-      color: #adadad; }
+      color: black; }
     .ps-search--header > input:-ms-input-placeholder {
       font-family: "Montserrat", sans-serif;
       font-size: 13px;
-      color: #adadad; }
+      color: black; }
   .ps-search--header > button {
     position: absolute;
     top: 50%;
@@ -4890,7 +4914,7 @@ textarea.form-control {
     -moz-transition: all 0.4s ease;
     transition: all 0.4s ease; }
     .ps-search--header > button:hover {
-      color: #2AC37D; }
+      color: #ff4655; }
   @media (max-width: 1440px) {
     .ps-search--header {
       max-width: 200px; } }
@@ -4905,41 +4929,44 @@ textarea.form-control {
 .ps-contact .ps-contact__form label {
   font-weight: 400;
   font-size: 14px;
-  color: #000;
-  text-transform: uppercase; }
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 3px solid #ff4655;
+ }
 
 .ps-contact__block {
   margin-bottom: 30px;
-  padding: 15px;
-  -webkit-border-radius: 4px;
+  padding: 40px;
+  /* -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  border-radius: 4px;
-  background-color: #f3f3f3; }
+  border-radius: 4px; */
+  /* background-color: hsla(355, 100%, 64%, 0.404);  */
+}
   .ps-contact__block > header {
     margin-bottom: 10px;
     padding-bottom: 5px;
-    border-bottom: 1px solid #c4c4c4; }
+    border-bottom: 1px solid #000000; }
     .ps-contact__block > header > h3 {
       font-family: "Montserrat", sans-serif;
-      font-size: 24px;
+      font-size: 49px;
       font-weight: 600;
-      color: #000;
+      color: #ff4655;
       text-transform: uppercase; }
       .ps-contact__block > header > h3 span {
         margin-left: 15px;
-        font-size: 14px;
+        font-size: 29px;
         font-style: italic;
-        color: #8d8d8d;
+        color: #ffffff;
         text-transform: none; }
   .ps-contact__block > footer p {
     margin-bottom: 15px;
     position: relative;
     padding-left: 35px;
     font-family: "Montserrat", sans-serif;
-    font-size: 12px;
+    font-size: 19px;
     line-height: 25px;
-    color: #1d1d1d; }
+    color: #fff; }
     .ps-contact__block > footer p i {
       position: absolute;
       top: 0;
@@ -4950,7 +4977,7 @@ textarea.form-control {
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       border-radius: 50%;
-      background-color: #b9b9b9; }
+      background-color: #000000; }
       .ps-contact__block > footer p i:before {
         position: absolute;
         top: 50%;
@@ -4963,7 +4990,7 @@ textarea.form-control {
         font-size: 12px;
         color: #fff; }
     .ps-contact__block > footer p a {
-      color: #2AC37D; }
+      color: #ff4655; }
       .ps-contact__block > footer p a:hover {
         color: #1d1d1d; }
 
@@ -4993,7 +5020,7 @@ textarea.form-control {
       margin-left: 5px; }
     .header__actions > a:hover, .header__actions .ps-dropdown > a:hover {
       background-color: #e5e5e5;
-      color: #2AC37D; }
+      color: #ff4655; }
   .header__actions > a {
     margin-right: -4px; }
   .header__actions .ps-dropdown {
@@ -5004,7 +5031,7 @@ textarea.form-control {
       -ms-box-shadow: none;
       box-shadow: none;
       background-color: #e5e5e5;
-      color: #2AC37D; }
+      color: #ff4655; }
     .header__actions .ps-dropdown .dropdown-menu {
       padding: 0;
       right: 0;
@@ -5027,7 +5054,7 @@ textarea.form-control {
           border: 1px solid #eee;
           margin-right: 10px; }
         .header__actions .ps-dropdown .dropdown-menu li a:hover {
-          background-color: #2AC37D;
+          background-color: #ff4655;
           color: #fff; }
       .header__actions .ps-dropdown .dropdown-menu li:last-child {
         border-bottom: none; }
@@ -5053,7 +5080,7 @@ textarea.form-control {
       font-family: "Montserrat", sans-serif;
       font-size: 13px;
       text-align: left;
-      color: #5b5b5b;
+      color: black;
       line-height: 40px; }
   @media (max-width: 1199px) {
     .header {
@@ -5198,7 +5225,7 @@ textarea.form-control {
     margin-bottom: 0;
     text-align: center;
     font-size: 14px;
-    color: #5b5b5b;
+    color: black;
     vertical-align: middle;
     line-height: 50px; }
     .ps-services .ps-service i {
@@ -5206,7 +5233,7 @@ textarea.form-control {
       display: inline-block;
       font-size: 40px;
       line-height: 50px;
-      color: #2AC37D;
+      color: #ff4655;
       vertical-align: middle; }
     .ps-services .ps-service strong {
       text-transform: uppercase; }
@@ -5252,7 +5279,7 @@ textarea.form-control {
       .ps-footer__copyright p a {
         font-family: inherit;
         font-weight: 700;
-        color: #2AC37D; }
+        color: #ff4655; }
     .ps-footer__copyright .ps-social {
       text-align: right; }
   @media (max-width: 991px) {
@@ -5287,7 +5314,7 @@ textarea.form-control {
     width: 220px; }
   .ps-product-action .ps-pagination {
     display: block;
-    width: 100%;
+    width: 60%;
     text-align: right; }
   @media (max-width: 767px) {
     .ps-product-action {
@@ -5305,6 +5332,8 @@ textarea.form-control {
         width: 100%; } }
 
 .ps-product__columns {
+  display: flex;
+  flex-wrap: wrap;
   padding-bottom: 80px;
   margin: 0 -15px; }
   .ps-product__columns::after {
@@ -5394,7 +5423,7 @@ textarea.form-control {
     font-family: "Archivo Narrow", sans-serif;
     font-size: 30px;
     font-weight: 700;
-    color: #313131;
+    color: #ff4655;
     text-transform: uppercase; }
 
 .ps-product--detail .ps-product__shopping .ps-product__actions {
@@ -5406,7 +5435,7 @@ textarea.form-control {
     display: inline-block;
     width: 55px;
     height: 55px;
-    background-color: #999999;
+    /* background-color: #999999; */
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -5426,7 +5455,7 @@ textarea.form-control {
       font-size: 22px;
       color: #fff; }
     .ps-product--detail .ps-product__shopping .ps-product__actions a:hover {
-      background-color: #2AC37D; }
+      background-color: #ff4655; }
 
 .ps-product--detail .ps-product__preview {
   min-width: 106px;
@@ -5511,7 +5540,7 @@ textarea.form-control {
   font-style: italic;
   color: #8d8d8d; }
   .ps-product--detail .ps-product__rating > a:hover {
-    color: #2AC37D; }
+    color: #ff4655; }
 
 .ps-product--detail .ps-product__catefory a {
   font-family: "Montserrat", sans-serif;
@@ -5519,7 +5548,7 @@ textarea.form-control {
   text-align: left;
   color: #8d8d8d; }
   .ps-product--detail .ps-product__catefory a:hover {
-    color: #2AC37D; }
+    color: #ff4655; }
 
 .ps-product--detail .ps-product__price {
   margin-bottom: 15px;
@@ -5539,13 +5568,13 @@ textarea.form-control {
     padding-bottom: 10px;
     font-family: "Archivo Narrow", sans-serif;
     font-size: 18px;
-    color: #313131;
+    color: #ff4655;
     border-bottom: 1px solid #e5e5e5; }
   .ps-product--detail .ps-product__block p {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     line-height: 1.8em;
-    color: #5b5b5b; }
+    color: black; }
 
 .ps-product--detail .ps-product__style ul li {
   display: inline-block;
@@ -5553,9 +5582,9 @@ textarea.form-control {
   .ps-product--detail .ps-product__style ul li a {
     display: inline-block;
     width: 60px;
-    border: 3px solid #e5e5e5; }
+    border: 1px solid #e5e5e5; }
     .ps-product--detail .ps-product__style ul li a:hover {
-      border-color: #2AC37D; }
+      border-color: #ff4655; }
 
 .ps-product--detail .ps-product__size > h4 a {
   float: right;
@@ -5566,7 +5595,7 @@ textarea.form-control {
   color: #000000;
   text-decoration: underline; }
   .ps-product--detail .ps-product__size > h4 a:hover {
-    color: #2AC37D; }
+    color: #ff4655; }
 
 .ps-product--detail .ps-product__size .ps-select {
   display: inline-block; }
@@ -5598,16 +5627,16 @@ textarea.form-control {
         left: 0;
         width: 0;
         height: 2px;
-        background-color: #2AC37D;
+        background-color: #ff4655;
         -webkit-transition: all 0.4s ease;
         -moz-transition: all 0.4s ease;
         transition: all 0.4s ease; }
       .ps-product--detail .ps-product__content .tab-list li a:hover {
-        color: #2AC37D; }
+        color: #ff4655; }
         .ps-product--detail .ps-product__content .tab-list li a:hover:before {
           width: 100%; }
     .ps-product--detail .ps-product__content .tab-list li.active a {
-      color: #2AC37D; }
+      color: #ff4655; }
       .ps-product--detail .ps-product__content .tab-list li.active a:before {
         width: 100%; }
 
@@ -5617,7 +5646,7 @@ textarea.form-control {
   font-size: 16px;
   line-height: 1.3em;
   font-weight: 400;
-  color: #5b5b5b; }
+  color: black; }
 
 .ps-product--detail .ps-product__review .form-group {
   margin-bottom: 30px; }
@@ -5626,7 +5655,7 @@ textarea.form-control {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.3em;
-    color: #5b5b5b; }
+    color: black; }
 
 .ps-product--detail .ps-product__tags {
   max-width: 400px; }
@@ -5644,11 +5673,11 @@ textarea.form-control {
       padding: 5px 20px;
       font-weight: 700;
       letter-spacing: 0;
-      background-color: #5b5b5b; }
+      background-color: black; }
       .ps-product--detail .ps-product__tags .form-group button:before {
         display: none; }
       .ps-product--detail .ps-product__tags .form-group button:hover {
-        background-color: #2AC37D; }
+        background-color: #ff4655; }
     .ps-product--detail .ps-product__tags .form-group input {
       height: 45px;
       -webkit-border-radius: 45px;
@@ -5656,10 +5685,10 @@ textarea.form-control {
       -ms-border-radius: 45px;
       border-radius: 45px; }
       .ps-product--detail .ps-product__tags .form-group input:focus {
-        border-color: #2AC37D; }
+        border-color: #ff4655; }
 
 .ps-product--detail p {
-  color: #5b5b5b; }
+  color: black; }
 
 @media (max-width: 991px) {
   .ps-product--detail .ps-product__thumbnail {
@@ -5745,7 +5774,7 @@ textarea.form-control {
     .ps-product--hotdeal .ps-product__price span {
       margin-left: 10px;
       font-size: 48px;
-      color: #2AC37D; }
+      color: #ff4655; }
   .ps-product--hotdeal .ps-product__status {
     margin-bottom: 10px; }
     .ps-product--hotdeal .ps-product__status::after {
@@ -5936,7 +5965,7 @@ textarea.form-control {
     font-size: 22px;
     color: #fff; }
   .ps-product-favorite:hover {
-    background-color: #2AC37D; }
+    background-color: #ff4655; }
 
 html, body {
   height: 100%; }

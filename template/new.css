@@ -1,0 +1,55 @@
+.navigation .navigation__column.left {
+    width: 8%!important;
+}
+.header__top{
+    background-color: black;
+}
+.header .header__top p{
+    color: white!important;
+}
+.navigation{
+    border: 2px solid #ff4655;
+    border-radius: 2px;
+}
+.ps-search--header > input {
+    padding: 0 20px;
+    /* border: none; */
+    height: 40px;
+    background-color: #ff4655;
+    /* -webkit-border-radius: 40px; */
+    /* -moz-border-radius: 40px; */
+    /* -ms-border-radius: 40px; */
+    /* border-radius: 40px; */
+    font-size: 13px;
+    color: #767779;
+}
+.ps-offer img{
+    
+}
+.ps-banner__title{
+    border-bottom: 3px solid #fff;
+}
+.fNameMail{
+    background-color: rgb(241, 241, 241);
+    
+}
+.form-control{
+    border: none!important;
+    background-color: rgb(219, 219, 219);
+}
+
+.ps-main{
+    background-color: rgba(0, 0, 0, 0.776);
+}
+.ps-shoe__name,.ps-shoe__categories{
+    margin-left: 8px;
+}
+.ps-list--checked li{
+    list-style: none;
+}
+.ps-list--checked li a:hover{
+    color: #ff4655;
+}
+.ps-list--checked li.current a{
+    color: #ff4655;
+}
